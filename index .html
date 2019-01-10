@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Font-Awesome-master/web-fonts-with-css/css/fontawesome-all.min.css">
+    <title>sign up form with validation</title>
+</head>
+<body>
+
+<div class="container ">
+    <div class="col-md-4 offset-md-4 login">
+        <div class="head">
+        <h1>Signup Form  </h1>
+<form action="#" name="myform" >
+    <div class="form-group">
+        <label for="" > Full name</label>
+        <input type="text" name="fullname" id="" class="form-control">   
+        <span id="error1" style="color:red">Your name is required</span>
+    </div>
+    <div class="form-group">
+        <label for="">Email</label>
+        <input type="email" class="form-control" name="email">
+        <span id="error2" style="color:red">Your email is required</span>
+
+    </div>
+    <div class="form-group">
+            <label for="">Password</label>
+            <input type="password" class="form-control" name="password1">
+            <span id="error3" style="color:red">Your Password is required or must be more than 8</span>
+
+        </div>
+        <div class="form-group">
+                <label for="">Confirm-Password</label>
+                <input type="password" class="form-control" name="password2">
+                <span id="error4" style="color:red">Your Password does not match </span>
+
+            </div>
+            <div>
+                <input type="submit"  id="" class="btn btn-primary btn-lg offset-2" value="Signup"
+                onclick="return fun()">
+            </div>
+        
+    
+</form>
+
+    </div>
+ </div>
+</div>   
+<script src="style.js"></script>
+
+</body>
+</html>
